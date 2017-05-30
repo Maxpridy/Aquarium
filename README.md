@@ -14,11 +14,11 @@ And some designs :) like Aquarium!
 
 # GIF
 
-![alt-tag](image/2017-05-09_15-24-33.gif)
+![alt-tag](image/2017-05-30 17-05-41.gif)
 
 
 
 
 
 
-[@Maxpridy](http://maxpridy.github.io/)
+[Maxpridy](http://maxpridy.github.io/)
