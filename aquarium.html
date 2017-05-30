@@ -290,7 +290,7 @@
             }
 
             function loadAgent() {
-                
+
                 $.getJSON( "agentzoo/aquaagent.json", function( data ) {
                     var agent = w.agents[0].brain;
                     agent.fromJSON(data); // corss your fingers...

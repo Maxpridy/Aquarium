@@ -81,7 +81,7 @@ var Item = function(x, y, type) {
     this.p = new Vec(x, y); // position
     this.v = new Vec(Math.random()*5-2.5, Math.random()*5-2.5);
     this.type = type;
-    this.rad = 10; // default radius
+    this.rad = 5; // default radius
     this.age = 0;
     this.cleanup_ = false;
 };
@@ -326,7 +326,7 @@ World.prototype = {
             }
             this.items = nt; // swap
         }
-        if(this.items.length < 200 && this.clock % 10 === 0 && randf(0,1)<0.25) {
+        if(this.items.length < 200 && this.clock % 10 === 0 && randf(0,1)<1) {
             for(;;){
                 var newitx = randf(20, this.W-20);
                 var newity = randf(20, this.H-20);
@@ -374,7 +374,7 @@ var Agent = function() {
     this.actions.push(3);
 
     // properties
-    this.rad = 10;
+    this.rad = 5;
     this.eyes = [];
     for(var k=0;k<30;k++) { this.eyes.push(new Eye(k*0.21)); }
 
