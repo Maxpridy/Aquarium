@@ -14,10 +14,7 @@ And some designs :) like Aquarium!
 
 # GIF
 
-![alt-tag](image/2017-05-30 17-05-41.gif)
-
-
-
+![alt-tag](image/2017-05-30-17-05-41.gif)
 
 
 
