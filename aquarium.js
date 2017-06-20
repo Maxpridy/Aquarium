@@ -301,6 +301,10 @@ World.prototype = {
 
 
             // move the items
+            // particles[i].addSpeed(Vector.sub(this, particles[i]).normalize().scale(this.gravity));
+            it.v.x += (600 - it.p.x)*0.0001;
+            it.v.y += (400 - it.p.y)*0.0001;
+
             it.p.x += it.v.x;
             it.p.y += it.v.y;
             // if(it.p.x < 1) { it.p.x = 1; it.v.x *= -1; }
